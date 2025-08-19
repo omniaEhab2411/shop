@@ -1,0 +1,41 @@
+
+
+/* https://freshcart-next-js-template.netlify.app/homepage-4   دي الصفحه الي عمله زيها*/
+     .card.selected {
+    border:  #0AAD0A;
+  }
+
+     /* شريط اللينكات */
+    #horizontal-scrollspy {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 0.5rem;
+      background: #f8f9fa;
+    }
+    #horizontal-scrollspy .nav-link {
+      display: inline-block;
+      margin-right: 0.5rem;
+      color: #333;
+    }
+    #horizontal-scrollspy .nav-link.active {
+      background-color: #0d6efd;
+      color: #fff;
+    }
+
+    /* محتوى Scrollspy */
+    .scrollspy-content {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 1rem 0;
+      scroll-behavior: smooth;
+    }
+    .scrollspy-section {
+      display: inline-block;
+      min-width: 300px;
+      margin-right: 1rem;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 0.5rem;
+      background: #fff;
+    }
